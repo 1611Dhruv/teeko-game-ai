@@ -345,7 +345,7 @@ class TeekoGUI:
             if move:
                 self.ai.opponent_move(move)
                 self.place_piece(move, self.ai.opp)
-                if self.ai.pieceCount >= 8:
+                if self.ai.pieceCount >= 7:
                     self.phase = "move"  # Switch to 'move' phase after placing 8 pieces
                 self.selected_button = None  # Reset selected button after move
                 self.ai_move()
