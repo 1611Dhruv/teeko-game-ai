@@ -1,0 +1,11 @@
+
+# requirements.txt
+
+# Tkinter for GUI development
+tkinter
+
+# For ttk styling support
+ttkthemes
+
+# Package for interacting with the AI opponent
+numpy
